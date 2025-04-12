@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imgs/Oxygen-Icons.org-Oxygen-Status-weather-showers-day.ico">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather Dashboard</title>
+    <script src="https://kit.fontawesome.com/ae39620c9e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>The Ghana Weather App</h1>
+
+        <nav>
+            <ul>
+                <li><a href="http://">Home</a></li>
+                <li><a href="http://">Contact</a></li>
+                <li><a href="http://">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <input type="text" id="city" placeholder="Enter your City">
+        <button onclick="getWeather()">Search</button>
+        <img id="weather-icon" alt="weather icon">
+        <div id="temp-div"></div>
+        <div id="weather-info"></div>
+        <div id="hourly-forcast"></div>
+        
+   
+    </main>
+    <footer></footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
